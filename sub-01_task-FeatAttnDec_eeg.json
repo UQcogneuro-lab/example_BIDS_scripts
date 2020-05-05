@@ -1,0 +1,29 @@
+{
+    "SubjectArtefactDescription": "Strange Regular artifact - visually looks to be at about 0.5Hz, but resistant to filtering. Suspect this is some sort of electrical artifact in the room - testing was not perfomed in a farraday cage. Should not effect FFT based anayses",
+    "TaskName": "bids.taskname",
+    "SamplingFrequency": "1200",
+    "PowerLineFrequency": "50",
+    "SoftwareFilters": ["n/a"],
+    "DCOffsetCorrection": "",
+    "EEGReference": "ear",
+    "EEGGround": "Cz",
+    "HardwareFilters": {
+        "HighpassFilter": {
+            "CutoffFrequency": "1"
+        },
+        "LowpassFilter": {
+            "CutoffFrequency": "100"
+        }
+    },
+    "Manufacturer": "g.tec",
+    "ManufacturersModelName": "g.USBamp",
+    "SoftwareVersions": "g.tec API functions running in MATLAB 2017a",
+    "InstitutionName": "Queensland Brain Institute, The University of Queensland",
+    "InstitutionAddress": "Building 79, The University of Queensland, St Lucia, Australia, 4072",
+    "EEGChannelCount": "5",
+    "TriggerChannelCount": "1",
+    "RecordingDuration": "3088.5867",
+    "RecordingType": "continuous",
+    "TaskDescription": "We set out to collect an EEG dataset to use to train various machine learning algorithms to detect the focus of feature-selective attention. Subjects were cued to attend to attend to either black or white moving dots, and respond to brief periods of coherent motion in the cued colour. The display consisted of either both black and white dots, or only the cued colour in randomly interleaved trials. The field of moving dots in the uncued colour never moved coherently, and should thus not have captured attention. The fields of dots flickered at 6 and 7.5 Hz. Colour and frequency were fully counterbalanced. Each trial consisted of a 1 second cue followed by 15 s of the dot motion stimulus. ",
+    "Instructions": "Participants were informed of the purpose of the study, and instructed to press the arrow keys corresponding to the direction of any epoch of coherent motion they saw in the cued colour."
+}

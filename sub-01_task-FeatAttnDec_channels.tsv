@@ -1,0 +1,7 @@
+name	type	units	low_cutoff	high_cutoff	reference	group	sampling_frequency	description	notch	status	status_description
+Iz	EEG	uV	100	1	ear	1	1200	n/a	50	good	n/a
+Oz	EEG	uV	100	1	ear	1	1200	n/a	50	good	n/a
+POz	EEG	uV	100	1	ear	1	1200	n/a	50	good	n/a
+O1	EEG	uV	100	1	ear	1	1200	n/a	50	good	n/a
+O2	EEG	uV	100	1	ear	1	1200	n/a	50	good	n/a
+TRIG	TRIG	uV	100	1	n/a	n/a	1200	n/a	50	good	n/a
